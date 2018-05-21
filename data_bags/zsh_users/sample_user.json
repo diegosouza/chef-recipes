@@ -1,0 +1,9 @@
+{
+  "id": "sample_user",
+  "comment": "I'm just a sample user. Create your own in another file",
+  "uid": "1000",
+  "gid": "1000",
+  "home": "/home/sample_user",
+  "shell": "/bin/zsh",
+  "platform": "debian"
+}
