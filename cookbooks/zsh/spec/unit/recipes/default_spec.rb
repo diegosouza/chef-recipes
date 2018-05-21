@@ -14,9 +14,9 @@ describe 'zsh::default' do
       runner.converge(described_recipe)
     end
 
-    it 'installs zsh and unzip through apt' do
+    it 'installs zsh and git through apt' do
       expect(chef_run).to install_apt_package 'zsh'
-      expect(chef_run).to install_apt_package 'unzip'
+      expect(chef_run).to install_apt_package 'git'
     end
   end
 end
