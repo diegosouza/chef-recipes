@@ -1,1 +1,2 @@
 .chef
+data_bags/zsh_users/*
