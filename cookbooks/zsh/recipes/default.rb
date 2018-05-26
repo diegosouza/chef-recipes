@@ -23,7 +23,7 @@ zsh_users.each do |user|
   username = user.id
 
   execute "set zsh as default shell to #{username}" do
-    command "chsh -s /bin/zsh #{username}"
+    command "sudo usermod -s /bin/zsh #{username}"
   end
 
   execute 'oh-my-zsh installation' do
